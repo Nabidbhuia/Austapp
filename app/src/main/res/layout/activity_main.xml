@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wood"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/RoutineId"
+        android:layout_width="104dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginLeft="46dp"
+        android:layout_marginTop="61dp"
+        android:background="#b3ffb3"
+        android:text="Routine" />
+
+    <Button
+        android:id="@+id/academicCalanderbtn"
+        android:layout_width="101dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="#ffcc99"
+        android:text="Calander" />
+
+    <Button
+        android:id="@+id/Notesbtn"
+        android:layout_width="111dp"
+        android:layout_height="84dp"
+        android:layout_alignEnd="@+id/RoutineId"
+        android:layout_alignRight="@+id/RoutineId"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        android:text="@string/note" />
+
+    <Button
+        android:id="@+id/MealId"
+        android:layout_width="104dp"
+        android:layout_height="84dp"
+        android:layout_alignStart="@+id/RoutineId"
+        android:layout_alignLeft="@+id/RoutineId"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginLeft="143dp"
+        android:layout_marginTop="223dp"
+        android:text="@string/meal" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="1dp"
+        android:text="ABOUT" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="WEB" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="Contact"
+        android:layout_alignParentRight="true" />
+</RelativeLayout>

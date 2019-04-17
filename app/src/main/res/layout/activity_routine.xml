@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9ffb3"
+    tools:context=".Routine">
+
+    <Button
+        android:id="@+id/classRoutine"
+        android:layout_width="196dp"
+        android:layout_height="106dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Class Routine"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background="#cceeff"/>
+
+    <Button
+        android:id="@+id/examRoutinbtn"
+        android:layout_width="184dp"
+        android:layout_height="127dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="98dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginBottom="126dp"
+        android:text="Exam Routine"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:background=" #ffccff"/>
+</RelativeLayout>
